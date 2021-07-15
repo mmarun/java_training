@@ -1,0 +1,20 @@
+1. Go through all the key words on Java.
+List all of them into the categories I had mentioned  like flow control, access specifier, Data type, etc.
+
+Also give some description about them..
+
+2. Go through ASCII, UNICODE, UTF-8, UTF-16
+Give a list of all of those formats.
+
+3. Understand what is 1's complement and 2's complement formats.
+Provide a description about that in a text file.
+
+
+4. Understand what is binary representation, Octal, Decimal, Hexadecimal representation in numbers.
+
+8 - 1000 binary representation
+8 - 10 octal representation
+8 - 8 
+8 - 8 hexadecimal representation.
+
+
