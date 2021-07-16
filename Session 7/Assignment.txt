@@ -1,0 +1,9 @@
+Assignment for 16 July
+
+1. Move all your code under my repository.
+2. All assignments going forward will be done under mmarun repository.
+3. Add functions like multiply and divide in the math operation class.
+4. Create a new Class called as MathHelper and provide an implementation for remainder operation ... i.e. 12 divided by 5 has a remainder of 2.
+5. Read the Object class methods java docs (Oracle official documentation for java)
+Add your understanding for it under git..
+
