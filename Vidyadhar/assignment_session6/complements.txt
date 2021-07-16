@@ -1,0 +1,74 @@
+
+the binary number system is the most used representation technique in digital electronics.
+ The complement is used for representing the negative decimal number in binary form.
+ Different types of complement are possible of the binary number, but 1's and 2's complements 
+ are mostly used for binary numbers.
+
+1's Complement:-
+ We can find the 1's complement of the binary number by simply inverting the given number.
+
+ex:-1's complement of binary number 1011001 is 0100110.
+
+2's Complement:-
+2's complement of the binary number by changing each bit(0 to 1 and 1 to 0) and adding 1 to the least significant bit. 
+
+ex:-2's complement of binary number 1011001 is (0100110)+1=0100111.
+
+--------------------------------------------------------------------------------------------------------------------
+binary:-Binary is a base-2 number system that uses two states 0 and 1 to represent a number. 
+         We can also call it to be a true state and a false state                                  Base2
+====================================================================================================================
+Divide n by 2, noting the quotient q and the remainder r
+Divide q by 2, noting its quotient and remainder
+Repeat step 2 until we get 0 as the quotient
+Concatenate in reverse order all remainders
+Let's see an example of converting 6 into its binary format equivalent:
+
+First, divide 6 by 2: quotient 3, remainder 0
+Then, divide 3 by 2: quotient 1, remainder 1
+And finally, divide 1 by 2: quotient 0, remainder 1
+110
+--------------------------------------------------------------------------------------------------------------------
+binary to Decimal:-                                                                         Base10    
+====================================================================================================================
+Start from with rightmost digit
+Multiply each digit with 2^{position} of that digit – here, rightmost digit's position is zero and it increases as we move to the left side
+Add the result of all the multiplications to get the final decimal number
+
+First, 101011 = (1*2^5) + (0*2^4)  + (1*2^3) + (0*2^2) + (1*2^1) + (1*2^0)
+Next, 101011 = (1*32) + (0*16) + (1*8) + (0*4)  + (1*2) + (1*1)
+Then, 101011 = 32 + 0 + 8 + 0 + 2 + 1
+And finally, 101011 = 43
+-------------------------------------------------------------------------------------------------------------------------
+HEXADECIMAL Numbers:- 0 1 2 3 4 5 6 7 8 9 A B C D E F      Base16
+
+DECIMAL	Number:- 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+
+
+EX:-Convert the number 921 DECIMAL to HEXADECIMAL
+
+DIVISION	RESULT	REMAINDER (in HEX)
+921 / 16	57	9
+57 / 16 	3	9
+3 / 16	        0	3
+ 	 	 
+ANSWER	 	399
+
+EX:-Convert the number 590 DECIMAL to HEXADECIMAL
+
+DIVISION	RESULT	REMAINDER
+(HEX)
+590 / 16	36	E (14 decimal)
+36 / 16	        2	4 (4 decimal)
+2 / 16        	0	2 (2 decimal)
+ 	 	 
+ANSWER	 	24E
+
+-------------------------------------------------------------------------------------------------------------
+Octal :-The octal numeral system, is the base-8 number system, and uses the digits 0 to 7.   
+
+0, 1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21….etc
+ 
+11 means 1+1 
+21 means 2+1
+

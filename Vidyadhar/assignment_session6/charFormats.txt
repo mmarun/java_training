@@ -1,0 +1,16 @@
+ASSCI Code:-Originally based on the English alphabet, ASCII encodes 128 specified characters into seven-bit integers 
+        Ninety-five of the encoded characters are printable 
+        these include the digits 0 to 9, lowercase letters a to z, uppercase letters A to Z, and punctuation symbols.
+
+Unicode :- unicode, character holds 2 byte, so java also uses 2 byte for characters.
+           lowest value:\u0000
+           highest value:\uFFFF
+
+Unicode is an information technology standard for the consistent encoding, representation,
+ and handling of text expressed in most of the world's writing systems. 
+The standard, which is maintained by the Unicode Consortium, defines 143,859 characters covering 154 modern 
+and historic scripts, as well as symbols, emoji, and non-visual control and formatting codes. 
+Unicode 14.0 is now in beta with 144,697 characters, including 5 new scripts, and 37 new emoji characters
+
+Unicode can be implemented by different character encodings. The Unicode standard defines Unicode Transformation Formats 
+(UTF): UTF-8, UTF-16, and UTF-32, and several other encodings. The most commonly used encodings are UTF-8, UTF-16
