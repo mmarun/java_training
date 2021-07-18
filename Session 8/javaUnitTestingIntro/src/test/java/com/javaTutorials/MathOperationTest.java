@@ -18,7 +18,6 @@ public class MathOperationTest {
     }
 
     @Test
-    @Ignore
     public void add_positive_tests() {
         int result = mathOperation.add(5, 8);
         Assert.assertEquals(13, result);

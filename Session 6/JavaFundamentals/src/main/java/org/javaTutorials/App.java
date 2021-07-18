@@ -1,16 +1,25 @@
 package org.javaTutorials;
 
 import org.javaTutorials.math.MathOperation;
+
+import java.sql.SQLOutput;
+
 import static org.javaTutorials.math.MathOperation.trim;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
+
+        App appDemo = new App();
+
+        String ourToString = String.format("%s@%s", appDemo.getClass().getName(), Integer.toHexString(appDemo.hashCode()));
+        System.out.println(ourToString);
+        System.out.println(appDemo.toString());
 
         String name = trim(" Arun   ");
 
@@ -18,6 +27,7 @@ public class App
 
 
         MathOperation mathOperation = new MathOperation();
+
         System.out.println(mathOperation.add(3, 4));
         //a - z
         //A - Z

@@ -10,6 +10,6 @@ public class MathHelper {
      */
     public int remainder(int a,int b)
     {
-        return a%b;
+        return a % b;
     }
 }
