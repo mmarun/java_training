@@ -1,0 +1,8 @@
+Assingments for today 
+
+1. Go to junit site and read about unit testing. Advantages of unit testing, unit testing concepts, etc
+2. In the functions like multiply, substract, divide, remainder etc add unit tests to test that.
+
+In this lecture I have also shown you how to go to Maven repository and download dependencies.
+Try downloading any java dependency of your choice and use it in your own java application.
+e.g Log 4 j
