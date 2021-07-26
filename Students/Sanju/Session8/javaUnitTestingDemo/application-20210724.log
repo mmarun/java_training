@@ -1,0 +1,5 @@
+2021-07-24 00:52:05.168 [main] DEBUG com.javaTutorials.App - We've just greeted the user!
+2021-07-24 00:52:05.207 [main] INFO  com.javaTutorials.App - We've just greeted the user!
+2021-07-24 00:52:05.214 [main] WARN  com.javaTutorials.App - We've just greeted the user!
+2021-07-24 00:52:05.214 [main] ERROR com.javaTutorials.App - We've just greeted the user!
+2021-07-24 00:52:05.215 [main] FATAL com.javaTutorials.App - We've just greeted the user!
