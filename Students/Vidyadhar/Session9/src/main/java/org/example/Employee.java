@@ -2,10 +2,10 @@ package org.example;
 
 public class Employee extends Object{
 
-    private String Emp_fname = "Varun";
-    private String Emp_lname = "HR";
-    private Integer Emp_Id = 101;
-    private String  Dept_Id = "CSE123";
+    private String Emp_fname;
+    private String Emp_lname;
+    private Integer Emp_Id;
+    private String  Dept_Id;
 
     public Employee()
     {
@@ -48,8 +48,8 @@ public class Employee extends Object{
     @Override
     public String toString()
     {
-        return "EmpFirstName: "+this.getEmp_fname() +"EmpLastname: " + this.getEmp_lname()+
-                "EmpId: "+ this.getEmp_Id() + "DeptId: "+this.getDept_Id();
+        return "EmpFirstName:"+this.getEmp_fname() +" EmpLastname:" + this.getEmp_lname()+
+                " EmpId:"+ this.getEmp_Id() + " DeptId:"+this.getDept_Id();
     }
 
     @Override
