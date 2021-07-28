@@ -47,13 +47,13 @@ public class App
         stack.printStack(stack);
 
         //creating & calling Queue methods
-        Queue queue=new Queue(5);
+        Queue<String> queue=new Queue<String>(5);
 
-        queue.add_Queue(1);
-        queue.add_Queue(2);
-        queue.add_Queue(3);
-        queue.add_Queue(4);
-        queue.add_Queue(5);
+        queue.add_Queue("Sanju");
+        queue.add_Queue("Rose");
+        queue.add_Queue("Varun");
+        queue.add_Queue("Amit");
+        queue.add_Queue("Remya");
 
 
         queue.printQueue(queue);

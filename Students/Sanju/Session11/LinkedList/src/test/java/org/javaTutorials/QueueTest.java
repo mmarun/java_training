@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class QueueTest {
 
-    Queue queue=new Queue(5);
+    Queue<String> queue=new Queue<String>(5);
     @Before
     public void setUp() throws Exception {
 

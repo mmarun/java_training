@@ -1,13 +1,13 @@
 package org.javaTutorials;
 
-public class Queue {
-    private int arr_elements[];
+public class Queue<S> {
+    private String arr_elements[];
     private int head;
     public int tail;
     public int capacity;
 
     Queue(int size){
-        arr_elements=new int[size];
+        arr_elements=new String[size];
         capacity=size;
         head=0;
         tail=-1;
@@ -17,12 +17,12 @@ public class Queue {
      * Adding Elements to Queue
      * @param a
      */
-    public void add_Queue(int a){
+    public void add_Queue(String a){
         if(tail==capacity-1){
             System.out.println("Queue is Full---");
             System.exit(1);
         }
-        System.out.println(" Adding "+a +" to Queue");
+        System.out.println(" Adding  "+ a +"  to Queue");
         arr_elements[++tail]=a;
     }
 
@@ -43,7 +43,7 @@ public class Queue {
      * Printing Queue Elements
      * @param queue
      */
-    public void printQueue(Queue queue){
+    public void printQueue(Queue<S> queue){
         if(tail==-1||tail==head-1){
             System.out.println("Queue is Empty");
             System.exit(1);
