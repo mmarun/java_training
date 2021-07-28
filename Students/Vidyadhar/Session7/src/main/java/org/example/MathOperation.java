@@ -1,6 +1,6 @@
 package org.example;
 
-public class MathOpretion {
+public class MathOperation {
 
 
     /**Addtion of two number

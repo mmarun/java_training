@@ -9,44 +9,44 @@ import static org.junit.Assert.*;
 
 public class MathOpretionTest {
 
-    private MathOpretion M1;
+    private MathOperation mathOperation;
 
     @Before
     public void setUp() throws Exception {
-        M1 = new MathOpretion();
+        mathOperation = new MathOperation();
 
     }
 
 
     @Test
     public void add() {
-        int result = M1.add(10,20);
+        int result = mathOperation.add(10,20);
         Assert.assertEquals(30,result);
     }
 
     @Test
     public void substract() {
-        int result = M1.substract(40,10);
+        int result = mathOperation.substract(40,10);
         Assert.assertEquals(30,result);
     }
 
     @Test
     public void multiply() {
 
-        int result = M1.multiply(10,10);
+        int result = mathOperation.multiply(10,10);
         Assert.assertEquals(100,result);
     }
 
     @Test
     public void divide() {
 
-        int result = M1.divide(50,5);
+        int result = mathOperation.divide(50,5);
         Assert.assertEquals(10,result);
 
     }
 
     @After
     public void tearDown() throws Exception {
-        M1 = null;
+        mathOperation = null;
     }
 }
