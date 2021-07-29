@@ -1,0 +1,16 @@
+Create an employee Class with members empId, empName, empDepartment, empSalary...
+
+Use Lombok to configure constructors, getters and setters.
+
+Default natural sorting in Comparable must be by empName
+
+Customized comparator should sort by Salary in descending order.. (The people who have more salary are more important. :))
+
+Write Unit tests to check if this implementation is working correctly -- VERY IMPORTANT...
+
+
+Use TreeSet..
+
+---Tomorrow we will cover HashSet, HashMap, HashTable,etc...
+
+------ Collections will be complete..
