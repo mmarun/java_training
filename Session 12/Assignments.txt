@@ -1,0 +1,21 @@
+Assignments for today - 27th July 2021..
+
+1. Create a Link List.
+a. Navigate through a link list.
+b. Add an element in middle of a link list
+c. Add an element at the start of a link list.
+
+2. Create a stack.
+Add 5 elements in a stack.
+Remove 3 three elements  from a stack.
+push method adds an element
+pop method removes an element.
+
+3. Queue 
+Add 4 elements
+Remove three elements
+First In First out...
+
+Add unit test cases for all the three programs above...
+
+
