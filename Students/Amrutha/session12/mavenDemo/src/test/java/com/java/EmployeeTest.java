@@ -23,7 +23,7 @@ public class EmployeeTest {
         Assert.assertTrue(emp.equals(employeeTest));
     }
     @Test
-    public void negativeTestEmployee()
+    public void negetiveTestEmployee()
     {
         Employee emp=new Employee("sudheesh","K",106,2,10000);
         Assert.assertFalse(emp.equals(employeeTest));

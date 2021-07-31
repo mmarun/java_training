@@ -9,10 +9,10 @@ public class App
 
         Employee emp1 = new Employee("Varun","HR",101,"EC456");
 
-        System.out.println(emp1.getEmp_fname()+" "+emp1.getEmp_lname()+" "+emp1.getEmp_Id()+" "+emp1.getDept_Id());
+        System.out.println(emp1.getEmployeeFirstName()+" "+emp1.getEmployeeLastName()+" "+emp1.getEmployeeId()+" "+emp1.getEmployeeDeptId());
 
-        emp1.setDept_Id("CSE123");
-        System.out.println(emp1.getEmp_fname()+" "+emp1.getEmp_lname()+" "+emp1.getEmp_Id()+" "+emp1.getDept_Id());
+        emp1.setEmployeeDeptId("CSE123");
+        System.out.println(emp1.getEmployeeFirstName()+" "+emp1.getEmployeeLastName()+" "+emp1.getEmployeeId()+" "+emp1.getEmployeeDeptId());
         System.out.println(emp1);
 
         Employee E1 = new Employee("Nitesh","Ap",103,"CSE111");

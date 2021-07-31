@@ -32,7 +32,7 @@ public class StudentTest {
     }
 
     @Test
-    public void equals_negative_test() {
+    public void equals_negetive_test() {
         Student otherStudent = new Student(2, "Ravi", "Chennai");
         Assert.assertFalse(student.equals(otherStudent));
     }
