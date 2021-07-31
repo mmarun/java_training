@@ -1,3 +1,5 @@
+package com.session11;
+
 public class Queue
 {
     int[] queue=new int[4];
@@ -23,7 +25,7 @@ public class Queue
 
     public void show()
     {
-        System.out.println("Elements of Queue");
+        System.out.println("Elements of com.session11.Queue");
         for(int i=0;i<size;i++)
         {
             System.out.print(queue[front+i]+ " ");
