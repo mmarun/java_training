@@ -1,3 +1,5 @@
+package com.session11;
+
 public class Stack
 {
     int[] stack =new int[5];
@@ -6,7 +8,7 @@ public class Stack
     {
         if(top==5)
         {
-            System.out.println("Stack is Full");
+            System.out.println("com.session11.Stack is Full");
         }
         else
         {
@@ -20,7 +22,7 @@ public class Stack
         int data=0;
         if(isEmpty())
         {
-            System.out.println("Stack is Empty!!");
+            System.out.println("com.session11.Stack is Empty!!");
         }
         else {
             top--;
