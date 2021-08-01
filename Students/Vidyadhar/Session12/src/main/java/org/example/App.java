@@ -10,7 +10,7 @@ public class App
         Employee emp2 = new Employee("Arun", 141, "CSE115", 50000);
         Employee emp3 = new Employee("Kiran", 131, "CSE161", 52000);
         Employee emp4 = new Employee("Sumit", 160, "CSE141", 25000);
-        Employee emp5 = new Employee("Ravi", 123, "CSE111", 46000);
+        Employee emp5 = new Employee("Ravi", 123, "CSE118", 46000);
 
         ArrayList<Employee> arrList = new ArrayList<>();
 
