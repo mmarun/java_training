@@ -1,28 +1,31 @@
-package org.maven.java;
+package com.java;
 
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class EmployeeTest{
+public class EmployeeTest {
+
 
     Employee employeeTest;
+    Employee employee2;
     @Before
-    public void setUp()
-    {
-        employeeTest =new Employee("Amrutha","sudheesh",101,2);
+    public void setUp() {
+        employeeTest =new Employee("Amrutha","sudheesh",101,2,10000);
+
+
     }
     @Test
     public void positiveTestEmployee()
     {
-        Employee emp=new Employee("Amrutha","sudheesh",101,2);
+        Employee emp=new Employee("Amrutha","sudheesh",101,2,10000);
         Assert.assertTrue(emp.equals(employeeTest));
     }
     @Test
-    public void negativeTestEmployee()
+    public void negetiveTestEmployee()
     {
-        Employee emp=new Employee("Sudheesh","K",106,2);
+        Employee emp=new Employee("sudheesh","K",106,2,10000);
         Assert.assertFalse(emp.equals(employeeTest));
     }
     @Test
@@ -32,14 +35,21 @@ public class EmployeeTest{
         Assert.assertTrue(emp.equals(employeeTest));
     }
     @Test
-    public void checkDifferntType_return()
+    public void checkDifferentType_return()
     {
        Integer a=23;
         Assert.assertFalse(employeeTest.equals(a));
     }
-    @After
-    public void tearDown()
+
+    @Test
+    public void deptidTest()
     {
+        employee2=new Employee();
+        employee2.setDeptId(2);
+        Assert.assertEquals(2,employee2.getDeptId().intValue());
+    }
+    @After
+    public void tearDown() {
         employeeTest=null;
 
     }
