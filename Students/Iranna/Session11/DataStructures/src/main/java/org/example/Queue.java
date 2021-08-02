@@ -1,9 +1,9 @@
 package org.example;
 
-public class Queue {
+public class Queue<T> implements QueueInterface<T>{
 
     private int capacity;
-    int queueArr[];
+    T queueArr[];
     int front;
     int rear;
     int currentSize = 0;
@@ -12,7 +12,7 @@ public class Queue {
         this.capacity = sizeOfQueue;
         front = 0;
         rear = -1;
-        queueArr = new int[this.capacity];
+        queueArr = (T[])new Object[currentSize];
     }
 
     /**
@@ -20,7 +20,8 @@ public class Queue {
      *
      * @param data
      */
-    public void enqueue(int data) {
+    @Override
+    public void enqueue(T data) {
         if (isFull()) {
             System.out.println("Queue is full!! Can not add more elements");
         } else {
@@ -37,6 +38,7 @@ public class Queue {
     /**
      * This method removes an element from the front of the queue
      */
+    @Override
     public void dequeue() {
         if (isEmpty()) {
             System.out.println("Queue is empty!! Can not dequeue element");
@@ -52,11 +54,26 @@ public class Queue {
         }
     }
 
+
+
+    @Override
+    public T get() {
+        if(isEmpty())
+        {
+            System.out.println("Empty queue");
+            System.exit(0);
+
+        }
+        return queueArr[front];
+
+    }
+
     /**
      * This method is use to check if element is full or not
      *
      * @return boolean
      */
+    @Override
     public boolean isFull() {
         if (currentSize == capacity) {
             return true;
@@ -69,6 +86,7 @@ public class Queue {
      *
      * @return
      */
+    @Override
     public boolean isEmpty() {
 
         if (currentSize == 0) {
@@ -76,4 +94,20 @@ public class Queue {
         }
         return false;
     }
+
+
+    @Override
+      public void printQueue(){
+        if(isEmpty())
+        {
+            System.out.println("queue is empty");
+        }
+        else
+        {
+            System.out.println("queue elements");
+            for(int i=front; i<=rear ; i++){
+                System.out.println(queueArr[i]);
+            }
+        }
+   }
 }

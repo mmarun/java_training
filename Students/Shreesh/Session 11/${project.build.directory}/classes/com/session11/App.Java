@@ -1,5 +1,6 @@
+package com.session11;
 
-class Runner
+class App
 {
     public static void main(String[] args)
     {
@@ -16,6 +17,8 @@ class Runner
       list.show();
       list.deleteAt(3);
       list.show();
+      System.out.println(list.valueAt(3));
+      System.out.println(list.countList());
 
       System.out.println("Now Showing com.session11.Stack");
 
@@ -37,6 +40,7 @@ class Runner
       System.out.println(nums.pop()+ " Removed From com.session11.Stack");
       System.out.println(nums.pop()+ " Removed From com.session11.Stack");
       System.out.println(nums.peek()+ " Peek From com.session11.Stack");
+      System.out.println("value at 2 is :" +nums.valueAt(2));
       nums.show();
       System.out.println(nums.size() +" is size of com.session11.Stack");
       System.out.println("com.session11.Stack Is Empty : "+nums.isEmpty());
@@ -48,6 +52,9 @@ class Runner
       q.enQueue(28);
       q.enQueue(73);
       q.show();
+      System.out.println("Element At 3rd index in Queue is: "+q.valueAt(3));
+      System.out.println("size of queue is"+ q.sizeOf());
+
       q.deQueue();q.deQueue();q.deQueue();
       q.show();
     }
