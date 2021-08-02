@@ -1,6 +1,6 @@
 package org.demo;
 
-public class Stack<T> implements StackOperations<T> {
+public class Stack<T> implements StackInterface<T> {
  T arrayElements[];
  int arraySize;
  int top;

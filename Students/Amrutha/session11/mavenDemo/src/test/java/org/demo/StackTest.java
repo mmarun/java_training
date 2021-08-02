@@ -36,7 +36,7 @@ public class StackTest<T> {
         Assert.assertEquals(Integer.valueOf(3),stackTest.peek() );
         stackTest.pop();
         Assert.assertEquals(Integer.valueOf(2),stackTest.peek() );
-       
+
     }
 
     @Test(expected=NullPointerException.class)

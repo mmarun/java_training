@@ -1,6 +1,6 @@
 package org.demo;
 
-public interface StackOperations<T> {
+public interface StackInterface<T> {
 public void push(T data);
 public void pop();
 public T peek();
