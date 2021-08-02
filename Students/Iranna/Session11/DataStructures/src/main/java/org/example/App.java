@@ -15,26 +15,24 @@ public class App
         StackCustom.push(50);
         StackCustom.push(40);
         StackCustom.push(50);
+        StackCustom.printStack();
 
         System.out.println("=================");
         StackCustom.pop();
         StackCustom.pop();
         StackCustom.pop();
+        StackCustom.printStack();
         System.out.println("=================");
 
         System.out.println("Now linked list");
         LinkedList llist = new LinkedList();
-        llist.push(2);
-        llist.push(4);
-        llist.push(6);
-        llist.printList();
+        llist.navigate();
+        llist.addTail(15);
+        llist.addTail(24);
+        llist.addTail(45);
+        llist.addStart(22);
+        llist.addMiddle(99,3);
 
-        System.out.println("adding element at start");
-         llist.push(8);
-        llist.printList();
-        System.out.println("adding element at middle of linked list");
-        llist.insertAtMid(10);
-        llist.printList();
 
         System.out.println("now queue");
         Queue queue = new Queue(10);

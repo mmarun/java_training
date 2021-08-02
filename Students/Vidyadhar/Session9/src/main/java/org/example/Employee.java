@@ -2,54 +2,54 @@ package org.example;
 
 public class Employee extends Object{
 
-    private String Emp_fname;
-    private String Emp_lname;
-    private Integer Emp_Id;
-    private String  Dept_Id;
+    private String EmployeeFirstName;
+    private String EmployeeLastName;
+    private Integer EmployeeId;
+    private String EmployeeDeptId;
 
     public Employee()
     {
         super();
     }
 
-    public Employee(String Emp_fname,String Emp_lname,Integer Emp_Id,String Dept_Id)
+    public Employee(String EmployeeFirstName, String EmployeeLastName, Integer EmployeeId, String EmployeeDeptId)
     {
-        this.Emp_fname = Emp_fname;
-        this.Emp_lname = Emp_lname;
-        this.Emp_Id = Emp_Id;
-        this.Dept_Id = Dept_Id;
+        this.EmployeeFirstName = EmployeeFirstName;
+        this.EmployeeLastName = EmployeeLastName;
+        this.EmployeeId = EmployeeId;
+        this.EmployeeDeptId = EmployeeDeptId;
     }
 
-    public String getEmp_fname()
+    public String getEmployeeFirstName()
     {
-        return this.Emp_fname;
+        return this.EmployeeFirstName;
     }
 
-    public String getEmp_lname()
+    public String getEmployeeLastName()
     {
-        return this.Emp_lname;
+        return this.EmployeeLastName;
     }
 
-    public Integer getEmp_Id()
+    public Integer getEmployeeId()
     {
-        return this.Emp_Id;
+        return this.EmployeeId;
     }
 
-    public String getDept_Id()
+    public String getEmployeeDeptId()
     {
-        return this.Dept_Id;
+        return this.EmployeeDeptId;
     }
 
-    public void setDept_Id(String Dept_Id)
+    public void setEmployeeDeptId(String Dept_Id)
     {
-        this.Dept_Id=Dept_Id;
+        this.EmployeeDeptId =Dept_Id;
     }
 
     @Override
     public String toString()
     {
-        return "EmpFirstName:"+this.getEmp_fname() +" EmpLastname:" + this.getEmp_lname()+
-                " EmpId:"+ this.getEmp_Id() + " DeptId:"+this.getDept_Id();
+        return "EmpFirstName:"+this.getEmployeeFirstName() +" EmpLastname:" + this.getEmployeeLastName()+
+                " EmpId:"+ this.getEmployeeId() + " DeptId:"+this.getEmployeeDeptId();
     }
 
     @Override
@@ -62,16 +62,16 @@ public class Employee extends Object{
         {
             Employee otherEmp = (Employee) obj;
 
-            if(this.getEmp_fname().equals(otherEmp.getEmp_fname()) == false)
+            if(this.getEmployeeFirstName().equals(otherEmp.getEmployeeFirstName()) == false)
                 return false;
 
-            if(this.getEmp_lname().equals(otherEmp.getEmp_lname()) == false)
+            if(this.getEmployeeLastName().equals(otherEmp.getEmployeeLastName()) == false)
                 return false;
 
-            if(this.getEmp_Id().equals(otherEmp.getEmp_Id()) == false)
+            if(this.getEmployeeId().equals(otherEmp.getEmployeeId()) == false)
                 return false;
 
-            if(this.getDept_Id().equals(otherEmp.getDept_Id()) == false)
+            if(this.getEmployeeDeptId().equals(otherEmp.getEmployeeDeptId()) == false)
                 return false;
 
             return true;

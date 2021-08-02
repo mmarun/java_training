@@ -2,46 +2,46 @@ package org.example;
 
 public class Student extends Object {
 
-    private Integer RollNum = 1;
-    private String S_name = "Vidyadhar";
-    private String Location = "Bangalore";
+    private Integer studentRollNum = 1;
+    private String studentName = "Vidyadhar";
+    private String studentLocation = "Bangalore";
 
     public Student()
     {
         super();
     }
 
-    public Student(Integer RollNum,String S_name,String Location)
+    public Student(Integer studentRollNum,String studentName,String Location)
     {
-        this.RollNum = RollNum;
-        this.S_name = S_name;
-        this.Location = Location;
+        this.studentRollNum = studentRollNum;
+        this.studentName = studentName;
+        this.studentLocation = studentLocation;
     }
 
-    public Integer getRollNum()
+    public Integer getStudentRollNum()
     {
-        return this.RollNum;
+        return this.studentRollNum;
     }
 
-    public String getS_name()
+    public String getStudentName()
     {
-        return this.S_name;
+        return this.studentName;
     }
 
-    public String getLocation()
+    public String getStudentLocation()
     {
-        return this.Location;
+        return this.studentLocation;
     }
 
     public void setLocation(String Location)
     {
-        this.Location=Location;
+        this.studentLocation=Location;
     }
 
     @Override
     public String toString()
     {
-        return "Name: "+ this.getS_name() +"RollNum: "+ this.getRollNum() +"Location: "+this.getLocation();
+        return "Name: "+ this.studentName +"RollNum: "+ this.getStudentRollNum() +"Location: "+this.getStudentLocation();
     }
 
     @Override
@@ -51,13 +51,13 @@ public class Student extends Object {
 
         if (obj instanceof Student){
             Student otherStudent = (Student) obj;
-            if (this.getS_name().equals(otherStudent.getS_name()) == false)
+            if (this.getStudentName().equals(otherStudent.getStudentName()) == false)
                 return false;
 
-            if (this.getRollNum().equals(otherStudent.getRollNum()) == false)
+            if (this.getStudentRollNum().equals(otherStudent.getStudentRollNum()) == false)
                 return false;
 
-            if (this.getLocation().equals(otherStudent.getLocation()) == false)
+            if (this.getStudentLocation().equals(otherStudent.getStudentLocation()) == false)
                 return false;
 
             return true;
