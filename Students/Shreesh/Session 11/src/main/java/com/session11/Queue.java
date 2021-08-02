@@ -32,4 +32,14 @@ public class Queue
         }
     }
 
+    public int valueAt(int index)
+    {
+        return queue[index-1];
+    }
+
+    public int sizeOf()
+    {
+        return size;
+    }
+
 }

@@ -80,4 +80,27 @@ public class LinkedList
         System.out.println("Deleted Value is : " +n1.data);
         n1=null;
     }
+
+    public int valueAt(int index)
+    {
+        Node n=head;
+        for (int i=0;i<index;i++)
+        {
+            n=n.next;
+        }
+        return n.data;
+
+    }
+
+    public int countList()
+    {
+        int count=1;
+        Node node=head;
+        while(node.next!=null)
+        {
+            count++;
+            node=node.next;
+        }
+        return count;
+    }
 }
