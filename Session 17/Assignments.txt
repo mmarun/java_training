@@ -1,0 +1,7 @@
+Create a program to handle at least 4 different most common Runtime exceptions like NullPointer, StringIndexOutOfBounds, ArrayIndexOUtOfBounds exceptions.
+
+Create a program to handle 3 different kind of checked exceptions.
+
+Read about exception heirarchy class in Java.
+
+Tomorrow we are going to cover finally, creation of customized exception and other concepts.
