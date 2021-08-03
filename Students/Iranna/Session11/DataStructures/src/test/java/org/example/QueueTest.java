@@ -10,11 +10,14 @@ public class QueueTest<T> {
 
     @Before
     public void setUp() {
-        queueTest = new Queue<>(5);
-        queueTest.enqueue(5);
-        queueTest.enqueue(6);
-        queueTest.enqueue(7);
+
+            queueTest = new Queue<>(10);
+            queueTest.enqueue(5);
+            queueTest.enqueue(6);
+            queueTest.enqueue(7);
+
     }
+
     @Test
     public void enqueueTest()
     {

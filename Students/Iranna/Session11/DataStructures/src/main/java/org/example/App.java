@@ -35,7 +35,7 @@ public class App
 
 
         System.out.println("now queue");
-        Queue queue = new Queue(10);
+        Queue queue = new Queue(20);
         queue.enqueue(32);
         queue.enqueue(232);
         queue.enqueue(38);
