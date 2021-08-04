@@ -1,0 +1,25 @@
+Assignment..
+
+1. Create two Files One.txt and Two.txt.
+Add 5 lines in both One.txt and Two.txt 
+
+2. Write a program to create Result.txt 
+First line should be from One.txt
+Second line should be from Two.txt
+Alternate lines should be printed..
+
+Read javadocs in case of any questions.
+
+===========================================================================
+
+Try using a return statement in try block and finally block..
+See which return value is used.
+
+int function () 
+try block return 1
+add finally block return 5 from there..
+
+
+===============================================================================
+
+Also try this code for yourself...
