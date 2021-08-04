@@ -1,0 +1,12 @@
+Data from one.txt
+Data from two.txt
+Sanju
+Amith
+Mathew
+Jha
+Location: Kerala
+Location: Haryana
+50000
+56000
+Job Location: Delhi
+Job Location: Bangalore
