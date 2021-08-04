@@ -1,5 +1,7 @@
 package org.example;
 
+import lombok.*;
+
 @Getter
 @Setter
 @AllArgsConstructor

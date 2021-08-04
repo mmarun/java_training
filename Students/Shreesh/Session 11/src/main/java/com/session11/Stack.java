@@ -54,4 +54,17 @@ public class Stack
     {
         return top<=0;
     }
+
+    public int valueAt(int index)
+    {
+        int val=0;
+        for(int n=0;n<=index-1;n++)
+        {
+            if (n==index-1)
+            {
+                val=stack[n];
+            }
+        }
+        return val;
+    }
 }

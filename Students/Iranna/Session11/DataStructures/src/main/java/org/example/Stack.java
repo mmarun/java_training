@@ -1,17 +1,17 @@
 package org.example;
 
-public class Stack {
+public class Stack<T> implements StackInterface<T> {
     int size;
-    int arr[];
+    T arr[];
     int top;
 
-    Stack(int size) {
+    public Stack(int size) {
         this.size = size;
-        this.arr = new int[size];
+        this.arr = (T[])new Object[size];
         this.top = -1;
     }
-
-    public void push(int pushedElement) {
+    @Override
+    public void push(T pushedElement) {
         if (!isFull()) {
             top++;
             arr[top] = pushedElement;
@@ -19,22 +19,24 @@ public class Stack {
         } else {
             System.out.println("Stack is full !");
         }
+
     }
 
-    public int pop() {
+    @Override
+    public void pop() {
         if (!isEmpty()) {
             int returnedTop = top;
             top--;
             System.out.println("Popped element :" + arr[returnedTop]);
-            return arr[returnedTop];
 
         } else {
             System.out.println("Stack is empty !");
-            return -1;
+
         }
     }
 
-    public int peek() {
+    @Override
+    public Object peek() {
         if (!this.isEmpty())
             return arr[top];
         else {
@@ -43,11 +45,22 @@ public class Stack {
         }
     }
 
+    @Override
     public boolean isEmpty() {
         return (top == -1);
     }
 
+    @Override
     public boolean isFull() {
         return (size - 1 == top);
     }
+
+    @Override
+    public void printStack(){
+        System.out.println("stack elements are");
+        for(int i =top; i>=0;i--)
+            System.out.println(arr[i]);
+    }
+
+
 }

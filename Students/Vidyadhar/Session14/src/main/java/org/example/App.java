@@ -13,7 +13,7 @@ public class App
     {
 
         Student student1= new Student("Anand",007,"BSE");
-        Student student2= new Student("Omkar",108,"com");
+        Student student2= new Student("Omkar",108,"Bcom");
         Student student3= new Student("Akash",102,"BE");
         Student student4= new Student("Nitesh",117,"MS");
         Student student5= new Student("Anand",222,"BEd");
