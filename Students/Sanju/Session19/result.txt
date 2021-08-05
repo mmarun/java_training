@@ -1,12 +1,12 @@
-Data from one.txt
-Data from two.txt
-Sanju
-Amith
-Mathew
-Jha
-Location: Kerala
-Location: Haryana
+This is the file merged with one.txt & two.txt
+Writing started -- writing lines alternatively
+Sanju Mathew
+Bibin Joseph
+Bangalore
+Andra Pradesh
 50000
-56000
-Job Location: Delhi
-Job Location: Bangalore
+60000
+Development
+Test
+987654321
+966654321
