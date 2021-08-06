@@ -1,5 +1,10 @@
 package com.javaTutorials.threading;
 
+
+//MyThread ->  Thread -> Runnable
+///MyRunnable -> MyRunnable extend Runnable interface and I can pass it as a parameter/target to Thread and start that thread...
+
+
 public class MyThread extends Thread{
 
     @Override
