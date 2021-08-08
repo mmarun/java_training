@@ -1,0 +1,4 @@
+1. Create an application using Fixed Thread pool 
+2. Create an application using SingleThreadExecutor.
+
+Use methods like join, yield and see the effects on the application.
