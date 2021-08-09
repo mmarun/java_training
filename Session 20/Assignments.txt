@@ -1,0 +1,4 @@
+Assignments for session
+
+1. Create couple of checked and unchecked exceptions.
+2. Try creating a class which implements AutoClosable interface and use it with try with resources.

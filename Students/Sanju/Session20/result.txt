@@ -1,0 +1,2 @@
+This is the file merged with one.txt & two.txt
+Writing started -- writing lines alternatively

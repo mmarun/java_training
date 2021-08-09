@@ -1,0 +1,12 @@
+This is the file merged with one.txt & two.txt
+Writing started -- writing lines alternatively
+Sanju Mathew
+Bibin Joseph
+Bangalore
+Andra Pradesh
+50000
+60000
+Development
+Test
+987654321
+966654321

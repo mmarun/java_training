@@ -1,0 +1,9 @@
+Read the java docs for the Thread class.
+
+Create Three different threads by Extending the thread class.
+
+Create Three threads by implementing the Autoclosable interface.
+
+Try providing a name to a thread..
+
+Try using isDaemon and setDaemon methods
