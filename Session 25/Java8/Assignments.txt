@@ -1,0 +1,8 @@
+We had explored Java Functional interfaces like Predicate, Function and BiFunction..
+On yourself you should implement Consumer & Supplier
+
+Create predicate for Is a number divisible by 5..
+Create a BiFunction which will return multiplication of two Double numbers.
+
+Introduce unit testing for Predicates and Bi-Function above...
+

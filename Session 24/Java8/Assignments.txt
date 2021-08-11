@@ -1,0 +1,4 @@
+Follow our examples of default and static methods on an interface.
+Create multiple anonymous classes..
+
+Functional interface we are going to cover in a lot more detail tomorrow.
