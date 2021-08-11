@@ -30,7 +30,7 @@ public class FileHandlingTest  {
     {
         fileHandling.deleteFileExist(trial1);
         fileHandling.deleteFileExist(trial2);
-        List names=new ArrayList<>(Arrays.asList("Amrutha","Sudheesh"));
+        List names=new ArrayList<>(Arrays.asList("Malli","Arjun"));
         fileHandling.writeFile(trial1,names);
         List l=fileHandling.readFromOutputFile(trial1);
         Assert.assertEquals(names,l);
