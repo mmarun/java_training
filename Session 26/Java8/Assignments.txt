@@ -1,0 +1,6 @@
+Use Consumer, supplier, predicate, Function and Bifunction methods on your arraylist.
+Use the foreach method to call a custom consumer in your application...
+meaning - every string name should be printed as "Hi Arun" for a given list of names.
+
+Use Filter and Map methods on Objects (Your own classes) rather than predefined JDK classes.
+e.g. use filter on an list of employees.. etc..
