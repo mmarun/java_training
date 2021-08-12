@@ -45,38 +45,33 @@ public class App
 
         List<String> employee=new ArrayList<>();
         employee.add("Sanju");
-        employee.add("Amith");employee.add("Jovina");
+        employee.add("Amith");
+        employee.add("Jovina");
         employee.add("Mathew");
         employee.add("Kripa");
         employee.add("Alphonsa");
         employee.add("Jocelyn");
+        employee.add("Amala");
 
         //default method of sorting
         List<String> employeefilter=employee.stream().sorted().collect(Collectors.toList());
-        employeefilter.forEach(System.out::println);
+       employeefilter.forEach(System.out::println);
+
+       // display particular name
+        System.out.println("===========================================");
+        List<String> filteremp=employee.stream().filter(k->"Jovina".equals(k)).collect(Collectors.toList());
+        filteremp.forEach(System.out::println);
 
 
+        //display names starting with J
+        System.out.println("===========================================");
+        List<String> filteremp1=employee.stream().filter(k->'J'==k.charAt(0)).collect(Collectors.toList());
+        filteremp1.forEach(System.out::println);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // display names with substring
+        System.out.println("===========================================");
+        List<String> filteremp3=employee.stream().filter(k->k.startsWith("Am")).collect(Collectors.toList());
+        filteremp3.forEach(System.out::println);
 
     }
 }
