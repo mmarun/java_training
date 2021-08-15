@@ -1,0 +1,11 @@
+Assignments -
+
+1. Single Responsibility.
+Create a class which follows single responsibility pattern...
+Interface class combination..
+
+2. Event Listener in Java..
+They follow open for extension closed for modification  principle.
+Ex. EventListener...
+
+=============================================

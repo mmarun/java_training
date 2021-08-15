@@ -1,0 +1,9 @@
+Since yesterday Git hub has changed its policy.
+We can no longer use git hub account username and Password to push the changes.
+You need to create a private key at 
+Git Hub -> Settings -> Developer Settings -> Personal access tokens -> Git bash -> Generate new token
+
+Copy that token and save that to a file.
+
+Use that token as a password going forward..
+Control Panel -> User Account -> Credential Manager -> GitHub -> Edit -> Update Password
