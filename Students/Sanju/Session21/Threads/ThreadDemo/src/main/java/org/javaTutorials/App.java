@@ -18,7 +18,7 @@ public class App
         Thread thread3=new MyThread();
 
         thread1.setDaemon(true);
-        
+
         thread1.start();
         thread2.start();
         thread3.start();
