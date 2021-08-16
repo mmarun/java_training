@@ -7,9 +7,7 @@ public class FileAutoclose extends Thread implements AutoCloseable{
     @Override
     public void run() {
         File file = new File("F:\\Git-Repo\\java_training\\Students\\Sanju\\Session21\\result.txt");
-        //FileWriter filewriter = new FileWriter(file, true);
-
-
+                  
         try( FileWriter filewriter = new FileWriter(file, true)) {
 
             PrintWriter pw1 = new PrintWriter(filewriter);

@@ -18,8 +18,9 @@ public class App
         employeeMap.put("Amit", new Employee(103,"Amit","Deployment",55000));
         employeeMap.put("Remya", new Employee(104,"Remya","HR",50000));
 
+       employeeMap.remove("Sachin");
 
-        for(Employee emp: employeeMap.values()){
+       for(Employee emp: employeeMap.values()){
             System.out.println(emp);
         }
 

@@ -67,7 +67,7 @@ public class LinkedListTest {
         Assert.assertEquals(Integer.valueOf(1),linkedList.getByIndex(0));
         Assert.assertEquals(Integer.valueOf(3),linkedList.getByIndex(1));
         Assert.assertEquals(Integer.valueOf(5),linkedList.getByIndex(2));
-        
+
     }
 
 }
