@@ -96,3 +96,64 @@ If school bus is used it inversed the dependency (They should be at a location)
 Client was dependent on implementation...
 Client became free and dependency was transferred to the implementor..
  ========================================
+ 
+ Spring - Framework..
+ 
+ Spring framework was developed by a developer called Rod Johnson.
+ Because he was frustated with EJB..
+ 
+ Mid 2000's in 2005 to 2007 
+ Struts NO..
+ Enterprise Java Beans - NO
+ CORBA - NO 
+ J2EE or JEE NO..
+ 
+ Appication servers and Enterprise servers..
+ IBM Webspere, JBOSS,   
+ 
+ Java Standard edition..
+ 
+ 
+ Java 1.0
+ 
+ Java 1
+ 
+ Java standard editor..
+ Java Enterprise edition.. (J2EE or JEE)...
+  
+ MQ - Messaging Queues.
+ 
+ Point to Point communication
+ Publisher subscriber model 
+ 
+ 
+ Dot net was introduced in 2001.. Very costly Windows server 2008, windows server 2012..
+ IIS, ASP dot net 
+ 
+ 
+ ==========================================================
+ 
+ Overview...
+ GIT,
+ Languange fundamentals
+ Garbage collection, collection framework, Threading, Synchronization, Executors, Generics, JUNIT,
+ Java 8.. 
+ 
+ Spring when it started it very small but changed very rapidly..
+ XML beans..
+ Annotations
+ Spring core..e
+ .
+ .
+ .
+ .
+ .
+ .
+ 
+ 
+ Spring microservices.. Latest.
+ REST API..
+ Spring Data..
+ Spring Testing.. 
+ Spring core...
+ 
