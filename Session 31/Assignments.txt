@@ -1,0 +1,10 @@
+Assignments..
+
+Go through various Http status codes..
+
+Go through REST methods / Verbs - GET , PUT, POST and Delete..
+
+Read Richardson Maturity model..
+
+Create a sample application using Spring MVC and Spring boot via Spring Initializer..
+
