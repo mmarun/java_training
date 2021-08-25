@@ -17,4 +17,5 @@ public class HomeController {
         ResponseEntity<String> responseEntity = new ResponseEntity<>("Home controller", HttpStatus.OK);
         return responseEntity;
     }
+
 }
