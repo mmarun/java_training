@@ -22,6 +22,8 @@ Class.newInstance
 
 Spring framework there are two classes 1. Application context and 2. BeanFactory (deprecated)..
 
-
-
-
+-- Bean scope --
+When is a bean created...
+Bean will be created based on its scope - 
+Singleton - same object will be passed for all getBean instances..
+Prototype - everytime you say getBean then a new bean is created..

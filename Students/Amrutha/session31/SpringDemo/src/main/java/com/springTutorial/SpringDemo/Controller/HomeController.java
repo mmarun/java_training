@@ -1,4 +1,5 @@
-package com.springTutorial.SpringDemo.controller;
+package com.springTutorial.SpringDemo.Controller;
+
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +14,7 @@ public class HomeController {
 
     @GetMapping("/index")
     public ResponseEntity<String> home(){
-        ResponseEntity<String> responseEntity = new ResponseEntity<>("Home com.springTutorial.SpringDemo.Controller", HttpStatus.OK);
+        ResponseEntity<String> responseEntity = new ResponseEntity<>("Home controller", HttpStatus.OK);
         return responseEntity;
     }
 }
