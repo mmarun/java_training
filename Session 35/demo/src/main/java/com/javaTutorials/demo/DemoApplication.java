@@ -28,6 +28,10 @@ public class DemoApplication {
 		Boolean sameMessageBean = messageBean == messageBean1;
 		System.out.println("Are message Beans same " + sameMessageBean);
 
+		MessageHandler msgHandler = (MessageHandler) context.getBean("messageHandler");
+		msgHandler.handleMessage();
+
+
 		System.out.println("End application");
 
 	}
