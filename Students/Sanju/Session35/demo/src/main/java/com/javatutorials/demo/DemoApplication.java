@@ -11,7 +11,7 @@ public class DemoApplication {
 
 		System.out.println("Starting the Application");
 		ApplicationContext context= SpringApplication.run(DemoApplication.class, args);
-		MsgBean bean=(MsgBean) context.getBean("messageBean");
+		/*MsgBean bean=(MsgBean) context.getBean("messageBean");
 		MsgBean bean1=(MsgBean) context.getBean("newMessageBean");
 
 		MsgBean msgBean=(MsgBean) context.getBean("messageBean");
@@ -24,7 +24,10 @@ public class DemoApplication {
 		System.out.println("Are the New message bean Equal  " + newMessageequal);
 
 		bean.message("Sanju");
-		bean1.message("Sanju");
+		bean1.message("Sanju");*/
+
+		MsgHandler msgHandler=(MsgHandler) context.getBean("msgHandler");
+		msgHandler.handleMessage();
 		System.out.println("Ending Application");
 	}
 
