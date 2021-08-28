@@ -1,0 +1,60 @@
+Student 
+
+Rollnumber FirstName LastName Class Division
+
+
+
+JDBC API
+Java Database connectivity API
+ 
+Any language like DotNet, Cpp, Java, Python, etc.. 
+In order to connect to the database you need Database driver. 
+Java Mysql driver
+Java Oracle driver.
+
+Make a connection - Connection string - Database instance, Database name, username and Password..,
+Open connection..
+
+Using dotnet Database adapter.
+Jdbc command.. 
+
+Table is already created.. (DML operations) (Medium security)..
+CRUD - Create, Update, Read and Delete.
+
+DDL is like create table, alter table, delete table, drop table. These operations are DDL operations. (High security)
+
+
+SQL injection attacks..
+
+JDBC was tough to follow..
+
+ORM frameworks..
+Object relational mapping.. (ORM) frameworks..
+Java you are using objects.. you want to save this object into the database. 
+They work as a bridge between your table or database and the java application..
+
+ORM frameworks - For java env you have Hibernate (80%), Toplink (10%), iBatis etc.. 
+ORM frameworks for DotNet - EntityFramework, Dapper (micro ORM)..
+
+Benefits- Every db has little variation in syntax. 
+
+Connection string has paramters like
+Database instance, Database name, username and Password.. you configure this in a properties like..
+Log4j  you had a properties file..
+jpaproperties, or application.properties 
+ 
+Java Persistance API...
+Hibernate became very popular.. Some other vendors also wanted to provide ORM functionality..
+
+Hibernate follows Java Persistance API.
+MyBatis/IBatis follows that.
+Toplink also follows that..
+
+Spring Data JPA..
+It removed the complexity of Hibernate and started to provide easier way for functionality to access the database.
+
+If you are using hibernate if you need some functionality you would need 30 days of work.
+Using spring data jpa you can get it done within 10 days .
+
+
+=========================================================================================
